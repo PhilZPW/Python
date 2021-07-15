@@ -191,6 +191,8 @@ axs[1].set_ylim(1e-1,1e3)
 axs[0].legend()
 axs[1].legend()
 
+
+#这里分块，阴影
 axs[0].axvspan(-0.5, 2.5, color='C9',alpha=0.2)
 axs[0].axvspan(2.5, 4.5, color='C8',alpha=0.2)
 axs[0].axvspan(4.5, 7.5, color='C7',alpha=0.2)
@@ -198,6 +200,7 @@ axs[1].axvspan(-0.5, 2.5, color='C9',alpha=0.2)
 axs[1].axvspan(2.5, 4.5, color='C8',alpha=0.2)
 axs[1].axvspan(4.5, 7.5, color='C7',alpha=0.2)
 
+#给阴影加文字
 axs[0].text(0.5, -4, 'Sample A')
 axs[0].text(3, -4, 'Sample B')
 axs[0].text(5.5, -4, 'Sample C')
@@ -207,18 +210,6 @@ axs[1].text(5.5,1.5, 'Sample C')
 
 fig.tight_layout()
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
