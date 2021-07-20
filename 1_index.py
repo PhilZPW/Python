@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-parameters = pd.read_table('0_para.txt')
+parameters = pd.read_table('1_para.txt')
 para = parameters.values
 
 fig = plt.figure()
