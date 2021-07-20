@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-parameters = pd.read_table('para.txt')
+parameters = pd.read_table('2_para.txt')
 para = parameters.values
 #print(para)
 
